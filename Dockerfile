@@ -11,7 +11,7 @@ COPY . /usr/src/app/
 # COPY ./cfg/nodecg.json /usr/src/app/cfg/
 # Install dependencies
 RUN npm install --production
-
+RUN npm install short-unique-id --save
 # Install Bundles
 # Setting working directory for bundles
 WORKDIR /usr/src/app/bundles
