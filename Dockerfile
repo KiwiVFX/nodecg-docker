@@ -16,6 +16,7 @@ RUN npm install gsap --save
 RUN npm install sortablejs --save
 RUN npm install vuedraggable --save
 RUN npm install cors --save
+RUN npm install shortid --save
  
 # Install Bundles
 # Setting working directory for bundles
