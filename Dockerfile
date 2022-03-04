@@ -17,6 +17,7 @@ RUN npm install sortablejs --save
 RUN npm install vuedraggable --save
 RUN npm install cors --save
 RUN npm install shortid --save
+RUN npm install mongoose --save
  
 # Install Bundles
 # Setting working directory for bundles
