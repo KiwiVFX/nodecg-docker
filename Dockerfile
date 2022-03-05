@@ -18,6 +18,7 @@ RUN npm install --production
 # RUN npm install cors --save
 # RUN npm install shortid --save
 # RUN npm install mongoose --save
+# RUN npm install lodash --save
  
 # Install Bundles
 # Setting working directory for bundles
