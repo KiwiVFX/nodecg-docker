@@ -11,13 +11,13 @@ COPY . /usr/src/app/
 # COPY ./cfg/nodecg.json /usr/src/app/cfg/
 # Install dependencies
 RUN npm install --production
-RUN npm install short-unique-id --save
-RUN npm install gsap --save
-RUN npm install sortablejs --save
-RUN npm install vuedraggable --save
-RUN npm install cors --save
-RUN npm install shortid --save
-RUN npm install mongoose --save
+# RUN npm install short-unique-id --save
+# RUN npm install gsap --save
+# RUN npm install sortablejs --save
+# RUN npm install vuedraggable --save
+# RUN npm install cors --save
+# RUN npm install shortid --save
+# RUN npm install mongoose --save
  
 # Install Bundles
 # Setting working directory for bundles
